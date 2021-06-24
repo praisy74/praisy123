@@ -4,7 +4,7 @@ var box,base1,base2,base3,base4
 
 function preload(){
     music = loadSound("music.mp3");
-    back=loadImage("download.jfif")
+   // back=loadImage("download.jfif")
 }
 
 
