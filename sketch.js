@@ -82,7 +82,7 @@ collide(box,base2)
 collide(box,base3)
 collide(box,base4)
 collide(box,base5)
-collide(box,base5)
+collide(box,base6)
 collide(box,up1)
 collide(box,up2)
 collide(box,up3)
@@ -102,7 +102,7 @@ console.log(canvas.width-box.x)
     box.collide(down)
     box.collide(leftd)
     box.collide(rightd)
-console.log(width-box.x,box.x-width,width-box.width/2,box.width/2)
+
 
     drawSprites();
     
