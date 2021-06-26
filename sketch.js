@@ -74,7 +74,7 @@ if(keyDown("UP_ARROW")){
 if(keyDown("DOWN_ARROW")){
     box.y=box.y+5
 }
-
+music.play();
 //box.velocityX=10
 
 collide(box,base1)
@@ -90,12 +90,12 @@ collide(box,up4)
 collide(box,up5)
 collide(box,up6)
 
-if(collide(box,base1)||collide(box,base2)){
-    music.play();
+if(box.shapeColor==="green"||box.shapeColor==="black"){
+    music.stop();
 }
 //box.x=mouseX
 //box.y=mouseY
-console.log(canvas.width-box.x)
+
 
     //add condition to check if box touching surface and make it box
     box.collide(up)
